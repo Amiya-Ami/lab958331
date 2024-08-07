@@ -10,7 +10,7 @@
  <button onclick="sendMessage()">Send</button>
 
  <script>
- const socket = new WebSocket('ws:https://amiya-ami.github.io/lab958331/app_server:8080');
+ const socket = new WebSocket('ws://amiya-ami.github.io/lab958331/app_server:8080');
 
  socket.addEventListener('open', () =>{
  console.log('Connected to WebSocket server.');
